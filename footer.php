@@ -1,6 +1,3 @@
-<?php
-
-?>
 </div>
 <!-- Footer -->
 <footer class="text-left text-lg-start bg-footer text-muted">
