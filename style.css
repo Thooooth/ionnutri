@@ -15,6 +15,21 @@ html, body {
   height: 100%;
 }
 
+section.page-not-found {
+  background: var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%));
+  background-image: url(./assets/images/404.png);
+  background-size: cover; 
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.page-not-found .page-content {
+  margin-left: 600px;
+}
+
 section.copyright {
   background: var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%));
 }
@@ -61,6 +76,35 @@ h6.title-ion {
 	color:var(--white);
 }
 
+.btn-brand-header {
+  background-color: var(--laranja-brand);
+  border-color: var(--laranja-brand);
+	border-radius: 0.1875rem;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:var(--white);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.btn-brand-header:hover {
+  background-color: var(--white);
+	color: var(--laranja-brand);
+}
+nav.top-nav {
+  background: var(--mint-green-gradiant, linear-gradient(132deg, #7B999C 0%, #315C70 100%));
+}
+.text-nav {
+  color: var(--white) !important;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
 .navbar {
   background-color: #ffffff;
 }
@@ -186,4 +230,34 @@ h6.title-ion {
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #eaeaea;
   background-color: var(--laranja-brand); 
+}
+p.title404{
+  color:  #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+}
+p.text404{
+  color:  #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+}
+p.textalt404{
+  color:  #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
 }

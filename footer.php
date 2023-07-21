@@ -2,10 +2,10 @@
 <!-- Footer -->
 <footer class="text-left text-lg-start bg-footer text-muted">
   <!-- Section: Links  -->
-  <section class="img-footer mt-5">
-    <div class="container text-left text-md-start mt-5">
+  <section class="img-footer ">
+    <div class="container text-left text-md-start ">
       <!-- Grid row -->
-      <div class="row mt-3 py-5">
+      <div class="row py-5">
         <!-- Grid column -->
         <div class="col-12 col-md-3">
             <a href="" class="mr-4">
